@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <Header>
+        <nav>
+            <div class="navbar">
+                <a href="#"><img src="./img/logo.svg" alt="Logo"></a>
+                <div>
+                    <ul class="nav-links">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link">Menu <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">Menu1</a></li>
+                                <li class="dropdown-item"><a href="#">Menu2</a></li>
+                                <li class="dropdown-item"><a href="#">Menu3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link">Services <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">Service1</a></li>
+                                <li class="dropdown-item"><a href="#">Service2</a></li>
+                                <li class="dropdown-item"><a href="#">Service3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Offers</a></li>
+                    </ul>
+
+                </div>
+                <div class="nav-actions">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class="bag-shopping" href="#"><i class="fa-solid fa-bag-shopping"></i>
+                        <div>20</div>
+                    </a>
+                    <div class="contact-btn">
+                        <img src="./img/phone.svg" alt="Phone">
+                        <p>Contact</p>
+                    </div>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </Header>
+
+
+    <!-- hero section start -->
+    <section class="hero-section">
+        <div class="hero-details">
+            <h1>Dive into Delights of Delectable <span>Food</span></h1>
+            <p>Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
+            <div class="hero-buttons">
+                <a class="order-button" href="">Order Now</a>
+                <a class="play-button" href="">Watch Video <i class="fa-solid fa-play"></i> </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="./img//hero.png" alt="" srcset="">
+            <div class="hero-cards">
+                <div class="hero-card" id="hero-Spicy">
+                    <div class="hero-card-image">
+                        <img src="./img//hero_card1.png" alt="" srcset="">
+                    </div>
+                    <div class="hero-card-content">
+                        <h4>Spicy noodles</h4>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa-regular fa-star"></span>
+                            <span class="fa-regular fa-star"></span>
+                        </div>
+                        <p><span class="dollar">$</span>18.00</p>
+                    </div>
+                </div>
+
+                <div class="hero-card" id="hero-vegeterian">
+                    <div class="hero-card-image">
+                        <img src="./img//hero_card2.png" alt="" srcset="">
+                    </div>
+                    <div class="hero-card-content">
+                        <h4>Vegeterian Salad</h4>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa-regular fa-star"></span>
+                        </div>
+                        <h4></h4>
+                        <p><span class="dollar">$</span>18.00</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <section class="popular-categories section-margin">
+        <h2>Customer Favorites</h2>
+        <h1>Popular Catagories</h1>
+
+        <div class="popular-categories-cards">
+            <div class="popular-categories-card">
+                <div class="popular-category-image">
+                    <img src="./img//popular1.png" alt="">
+                </div>
+                <h3>Main Dish</h3>
+                <p>(86 dishes)</p>
+            </div>
+            <div class="popular-categories-card">
+                <div class="popular-category-image">
+                    <img src="./img//popular2.png" alt="">
+                </div>
+                <h3>Break Fask</h3>
+                <p>(12 break fast)</p>
+            </div>
+            <div class="popular-categories-card">
+                <div class="popular-category-image">
+                    <img src="./img//popular3.png" alt="">
+                </div>
+                <h3>Dessert</h3>
+                <p>(12 dessert)</p>
+            </div>
+            <div class="popular-categories-card">
+                <div class="popular-category-image">
+                    <img src="./img//popular4.png" alt="">
+                </div>
+                <h3>Browse All</h3>
+                <p>(255 items)</p>
+            </div>
+        </div>
+    </section>
+    <!-- special dishes section start -->
+    <section class="special-dishes section-margin">
+        <div class="special-dishes-heading-row">
+            <div class="special-dishes-title">
+                <h2>Special Dishes</h2>
+                <h1>Standout Dishes From Our Menu</h1>
+            </div>
+            <div class="special-dishes-icons">
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+
+        <div class="special-dishes-cards">
+            <div class="special-dishes-card">
+                <div class="special-dishes-card-image">
+                    <img src="./img//special1.png" alt="">
+                </div>
+                <h3>Fattoush salad</h3>
+                <p>Description of the item</p>
+                <div class="special-dishes-footer">
+                    <h3><span class="dollar">$</span>24.00</h3>
+                    <div class="special-dishes-rating">
+                        <span class="fa fa-star checked"></span>
+                        <h4>4.5</h4>
+                    </div>
+                </div>
+                <i class="fa-solid fa-heart favorite"></i>
+            </div>
+            <div class="special-dishes-card">
+                <div class="special-dishes-card-image">
+                    <img src="./img//special2.png" alt="">
+                </div>
+                <h3>Vegetable salad</h3>
+                <p>Description of the item</p>
+                <div class="special-dishes-footer">
+                    <h3><span class="dollar">$</span>26.00</h3>
+                    <div class="special-dishes-rating">
+                        <span class="fa fa-star checked"></span>
+                        <h4>4.6</h4>
+                    </div>
+                </div>
+                <i class="fa-solid fa-heart favorite"></i>
+            </div>
+            <div class="special-dishes-card">
+                <div class="special-dishes-card-image">
+                    <img src="./img//special3.png" alt="">
+                </div>
+                <h3>Egg vegi salad</h3>
+                <p>Description of the item</p>
+                <div class="special-dishes-footer">
+                    <h3><span class="dollar">$</span>23.00</h3>
+                    <div class="special-dishes-rating">
+                        <span class="fa fa-star checked"></span>
+                        <h4>4.9</h4>
+                    </div>
+                </div>
+                <i class="fa-solid fa-heart favorite"></i>
+            </div>
+        </div>
+    </section>
+    <!-- special dishes section end -->
+
+    <!-- testemonial section start -->
+    <section class="testimonials section-margin">
+        <div class="chef-image">
+            <img src="./img/chefs.png" alt="">
+        </div>
+
+        <div class="testimonial-content">
+            <h2>Testimonials</h2>
+            <h1>What Our Customers Say About Us</h1>
+            <p>“I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The
+                attention to detail in
+                presentation and service was impeccable”</p>
+            <div class="customer-feedback">
+                <div class="avatars">
+                    <img src="./img/t1.jpg" alt="User 1" class="avatar">
+                    <img src="./img/t2.jpg" alt="User 2" class="avatar">
+                    <img src="./img/t3.jpg" alt="User 3" class="avatar">
+                </div>
+                <div class="feedback-details">
+                    <span class="title">Customer Feedback</span>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="rating-value">4.9</span>
+                        <span class="reviews">(18.6k Reviews)</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- testemonial section end -->
+
+
+    <!-- Services section end -->
+    <section class="services section-margin">
+        <div class="service-detail">
+            <h2>
+                Our Story & Services
+            </h2>
+            <h1>Our Culinary Journey And Services</h1>
+            <p>Rooted in passion, we curate unforgettable dining experiences and offer exceptional services, blending
+                culinary artistry
+                with warm hospitality.</p>
+            <a href="">Explore</a>
+        </div>
+
+        <div class="services-cards">
+            <div class="services-card">
+                <img src="./img/service1.png" alt="" srcset="">
+                <h5>Gift Cards</h5>
+                <p>Give the gift of exceptional dining with Foodi Gift Cards</p>
+            </div>
+            <div class="services-card">
+                <img src="./img/service2.png" alt="" srcset="">
+                <h5>Fast delivery</h5>
+                <p>We deliver your order promptly to your door</p>
+            </div>
+            <div class="services-card">
+                <img src="./img/service3.png" alt="" srcset="">
+                <h5>Online Ordering</h5>
+                <p>Explore menu & order with ease using our Online Ordering</p>
+            </div>
+            <div class="services-card">
+                <img src="./img/service4.png" alt="" srcset="">
+                <h5>Catering</h5>
+                <p>Delight your guests with our flavors and presentation</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- Services section end -->
+
+
+    <!-- Footer start  -->
+    <footer class="section-margin">
+        <div class="footer-columns">
+            <div class="footer-logo-desc">
+                <img src="./img//logo.svg" alt="" srcset="">
+                <p>
+                    Savor the artistry where every dish is a culinary masterpiece
+                </p>
+            </div>
+            <div class="useful-links">
+                <ul>
+                    <li><a href="">Useful Links</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="">Main Menu</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Offers</a></li>
+                    <li><a href="">Menus</a></li>
+                    <li><a href="">Reservation</a></li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <ul>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">example@email.com</a></li>
+                    <li><a href="">+64 958 248 966</a></li>
+                    <li><a href="">Social media</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="social-links">
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+            </div>
+            <p>Copyright 2023 Dscode | All rights reserved</p>
+            <div></div>
+        </div>
+    </footer>
+    <!-- Footer end  -->
+
+</body>
+
+<script src="./app.js"></script>
+
+</html>
